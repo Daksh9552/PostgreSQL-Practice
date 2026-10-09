@@ -13,4 +13,5 @@ CREATE TABLE Stubent(
 	attendance NUMERIC (4,2)
 )
 
-SELECT * FROM Stubent;
+SELECT * FROM Students;
+ALTER TABLE Stubent RENAME TO Students;
